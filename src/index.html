@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-white text-slate-900 antialiased">
+
+  <!-- Navigation Bar -->
+  <header class="border-b border-slate-100">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <div class="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center text-white font-bold">
+          L
+        </div>
+        <span class="text-xl font-bold tracking-tight">Logo</span>
+      </div>
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+        <a href="#features" class="hover:text-slate-900 transition">Features</a>
+        <a href="#pricing" class="hover:text-slate-900 transition">Pricing</a>
+        <a href="#about" class="hover:text-slate-900 transition">About</a>
+      </nav>
+      <div>
+        <a href="#cta" class="inline-flex items-center justify-center rounded-lg bg-indigo-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 transition">
+          Get Started
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="py-20 sm:py-28 text-center">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <span class="inline-flex items-center rounded-full bg-indigo-50 px-3 py-1 text-xs font-medium text-indigo-700 ring-1 ring-inset ring-indigo-600/10 mb-6">
+        New v2.0 Released
+      </span>
+      <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-slate-900 leading-tight">
+        Build faster with a modern <span class="text-indigo-600">Tailwind</span> workflow
+      </h1>
+      <p class="mt-6 text-lg sm:text-xl text-slate-600 max-w-2xl mx-auto">
+        A clean, responsive, and utility-first layout designed to help you launch your next product or SaaS app in minutes.
+      </p>
+      <div class="mt-10 flex items-center justify-center gap-4">
+        <a href="#" class="rounded-lg bg-indigo-600 px-6.5 py-3.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 transition">
+          Start Free Trial
+        </a>
+        <a href="#" class="rounded-lg bg-slate-100 px-6.5 py-3.5 text-sm font-semibold text-slate-700 hover:bg-slate-200 transition">
+          Live Demo
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature Grid Section -->
+  <section id="features" class="py-20 bg-slate-50 border-t border-slate-100">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="text-3xl font-bold tracking-tight text-slate-900">Everything you need to grow</h2>
+        <p class="mt-4 text-slate-600">Simple primitives and accessible blocks tailored for rapid prototyping and production deployment.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Feature 1 -->
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-indigo-600 transition shadow-xs">
+          <div class="w-12 h-12 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center font-bold mb-4">
+            ⚡
+          </div>
+          <h3 class="text-lg font-semibold text-slate-900">Lightning Fast</h3>
+          <p class="mt-2 text-sm text-slate-600">Utility classes compile down to minimal CSS, keeping your bundle size tiny and fast.</p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-indigo-600 transition shadow-xs">
+          <div class="w-12 h-12 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center font-bold mb-4">
+            🎨
+          </div>
+          <h3 class="text-lg font-semibold text-slate-900">Fully Customizable</h3>
+          <p class="mt-2 text-sm text-slate-600">Easily tweak colors, spacing, and typography scales to match your exact brand guidelines.</p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-indigo-600 transition shadow-xs">
+          <div class="w-12 h-12 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center font-bold mb-4">
+            📱
+          </div>
+          <h3 class="text-lg font-semibold text-slate-900">Responsive by Default</h3>
+          <p class="mt-2 text-sm text-slate-600">Mobile-first prefixes ensure your design scales gracefully from phones to wide desktop monitors.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-100 py-8 text-center text-sm text-slate-500">
+    <div class="max-w-6xl mx-auto px-4">
+      &copy; 2026 Your Company. Built with Tailwind CSS.
+    </div>
+  </footer>
+
+</body>
+</html>
