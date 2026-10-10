@@ -2,7 +2,7 @@ FROM node:22-alpine
 
 WORKDIR /app
 
-COPY src/server.js .
+COPY server.js .
 COPY src/index.html .
 COPY src/images ./images
 COPY package.json .
